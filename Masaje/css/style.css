@@ -1,1 +1,9 @@
+body{
+  background-image: url(../images/AntiestresLanding1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.aweb{
+  padding-top: 50px;
+}
