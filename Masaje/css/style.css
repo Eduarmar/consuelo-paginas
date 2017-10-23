@@ -69,13 +69,24 @@ h1{
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
+  .frase{width: 110%; padding-top: 35px;}
+  .logo{width: 110%;}
+  .aweb{padding-top: 0;}
+  body > div > div:nth-child(4) > div{padding-left: 70px;}}
 
+@media (max-width: 600px) {
+  .frase{width: 120%; padding-top: 35px;}
+  .logo{width: 120%;}
+  .aweb{padding-top: 0;}
+  body > div > div:nth-child(4) > div{padding-left: 70px;}
 }
 
 @media (max-width: 500px) {
-  .frase{width: 120%;}
+  .frase{width: 120%; padding-top: 35px;}
   .logo{width: 120%;}
+  .aweb{padding-top: 0;}
+  body > div > div:nth-child(4) > div{padding-left: 70px;}
   }
 
 @media (max-width: 330px) {
@@ -87,47 +98,241 @@ h1{
   }
 
 
-h6{color: #009F98;}
+h6{color: #009F98; padding-top: 25px; padding-left: 15px;}
 
-#af-form-603460649 .af-body .af-textWrap{width:98%;display:block;float:none;}
-#af-form-603460649 .af-body a{color:#CCCCCC;text-decoration:underline;font-style:normal;font-weight:normal;}
-#af-form-603460649 .af-body input.text, #af-form-603460649 .af-body textarea{background-color:#FFFFFF;border-color:#D9D9D9;border-width:1px;border-style:solid;color:#000000;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Trebuchet MS, sans-serif;}
-#af-form-603460649 .af-body input.text:focus, #af-form-603460649 .af-body textarea:focus{background-color:#FFFAD6;border-color:#030303;border-width:1px;border-style:solid;}
-#af-form-603460649 .af-body label.previewLabel{display:block;float:none;text-align:left;width:auto;color:#009F98;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Muli, sans-serif;}
-#af-form-603460649 .af-body{padding-bottom:15px;padding-top:15px;background-repeat:no-repeat;background-position:inherit;background-image:none;color:#CCCCCC;font-size:11px;font-family:Verdana, sans-serif;}
-#af-form-603460649 .af-header{padding-bottom:7px;padding-top:7px;padding-right:10px;padding-left:10px;background-color:transparent;background-repeat:no-repeat;background-position:inherit;background-image:none;border-width:1px;border-bottom-style:none;border-left-style:none;border-right-style:none;border-top-style:none;color:#CCCCCC;font-size:16px;font-family:Verdana, sans-serif;}
-#af-form-603460649 .af-quirksMode .bodyText{padding-top:2px;padding-bottom:2px;}
-#af-form-603460649 .af-quirksMode{padding-right:20px;padding-left:20px;}
-#af-form-603460649 .af-standards .af-element{padding-right:20px;padding-left:20px;}
-#af-form-603460649 .bodyText p{margin:1em 0;}
-#af-form-603460649 .buttonContainer input.submit{background-image:url("https://forms.aweber.com/images/auto/gradient/button/07c.png");background-position:top left;background-repeat:repeat-x;background-color:#0057ac;border:1px solid #0057ac;color:#FFFFFF;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Helvetica, sans-serif;}
-#af-form-603460649 .buttonContainer input.submit{width:auto;}
-#af-form-603460649 .buttonContainer{text-align:center;}
-#af-form-603460649 body,#af-form-603460649 dl,#af-form-603460649 dt,#af-form-603460649 dd,#af-form-603460649 h1,#af-form-603460649 h2,#af-form-603460649 h3,#af-form-603460649 h4,#af-form-603460649 h5,#af-form-603460649 h6,#af-form-603460649 pre,#af-form-603460649 code,#af-form-603460649 fieldset,#af-form-603460649 legend,#af-form-603460649 blockquote,#af-form-603460649 th,#af-form-603460649 td{float:none;color:inherit;position:static;margin:0;padding:0;}
-#af-form-603460649 button,#af-form-603460649 input,#af-form-603460649 submit,#af-form-603460649 textarea,#af-form-603460649 select,#af-form-603460649 label,#af-form-603460649 optgroup,#af-form-603460649 option{float:none;position:static;margin:0;}
-#af-form-603460649 div{margin:0;}
-#af-form-603460649 fieldset{border:0;}
-#af-form-603460649 form,#af-form-603460649 textarea,.af-form-wrapper,.af-form-close-button,#af-form-603460649 img{float:none;color:inherit;position:static;background-color:none;border:none;margin:0;padding:0;}
-#af-form-603460649 input,#af-form-603460649 button,#af-form-603460649 textarea,#af-form-603460649 select{font-size:100%;}
-#af-form-603460649 p{color:inherit;}
-#af-form-603460649 select,#af-form-603460649 label,#af-form-603460649 optgroup,#af-form-603460649 option{padding:0;}
-#af-form-603460649 table{border-collapse:collapse;border-spacing:0;}
-#af-form-603460649 ul,#af-form-603460649 ol{list-style-image:none;list-style-position:outside;list-style-type:disc;padding-left:40px;}
-#af-form-603460649,#af-form-603460649 .quirksMode{width:100%;max-width:418px;}
-#af-form-603460649.af-quirksMode{overflow-x:hidden;}
-#af-form-603460649{background-color:transparent;border-color:#CFCFCF;border-width:1px;border-style:none;}
-#af-form-603460649{display:block;}
-#af-form-603460649{overflow:hidden;}
-.af-body .af-textWrap{text-align:left;}
-.af-body input.image{border:none!important;}
-.af-body input.submit,.af-body input.image,.af-form .af-element input.button{float:none!important;}
-.af-body input.text{width:100%;float:none;padding:2px!important;}
-.af-body.af-standards input.submit{padding:4px 12px;}
-.af-clear{clear:both;}
-.af-element label{text-align:left;display:block;float:left;}
-.af-element{padding-bottom:5px;padding-top:5px;}
-.af-form-wrapper{text-indent:0;}
-.af-form{text-align:left;margin:auto;}
-.af-header{margin-bottom:0;margin-top:0;padding:10px;}
-.af-quirksMode .af-element{padding-left:0!important;padding-right:0!important;}
-.lbl-right .af-element label{text-align:right;}
+.aweContainer {
+  background-color: #F8ECEC;
+   border-radius: 25px;
+
+}
+
+.btn {
+  color: #009F98;
+  background-color: white;
+  font-weight: bold;
+}
+
+#af-form-603460649 .af-body .af-textWrap {
+  width: 98%;
+  display: block;
+  float: none;
+}
+
+#af-form-603460649 .af-body a {
+  color: #CCCCCC;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#af-form-603460649 .af-body input.text, #af-form-603460649 .af-body textarea {
+  background-color: #FFFFFF;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-style: solid;
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#af-form-603460649 .af-body input.text:focus, #af-form-603460649 .af-body textarea:focus {
+  background-color: #FFFAD6;
+  border-color: #030303;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#af-form-603460649 .af-body label.previewLabel {
+  display: block;
+  float: none;
+  text-align: left;
+  width: auto;
+  color: #009F98;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: Muli, sans-serif;
+}
+
+#af-form-603460649 .af-body {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-image: none;
+  color: #CCCCCC;
+  font-size: 11px;
+  font-family: Verdana, sans-serif;
+}
+
+#af-form-603460649 .af-quirksMode .bodyText {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#af-form-603460649 .af-quirksMode {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#af-form-603460649 .af-standards .af-element {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#af-form-603460649 .bodyText p {
+  margin: 1em 0;
+}
+
+#af-form-603460649 .buttonContainer input.submit {
+  width: auto;
+}
+
+#af-form-603460649 .buttonContainer {
+  text-align: center;
+}
+
+#af-form-603460649 body, #af-form-603460649 dl, #af-form-603460649 dt, #af-form-603460649 dd, #af-form-603460649 h1, #af-form-603460649 h2, #af-form-603460649 h3, #af-form-603460649 h4, #af-form-603460649 h5, #af-form-603460649 h6, #af-form-603460649 pre, #af-form-603460649 code, #af-form-603460649 fieldset, #af-form-603460649 legend, #af-form-603460649 blockquote, #af-form-603460649 th, #af-form-603460649 td {
+  float: none;
+  color: inherit;
+  position: static;
+  margin: 0;
+  padding: 0;
+}
+
+#af-form-603460649 button, #af-form-603460649 input, #af-form-603460649 submit, #af-form-603460649 textarea, #af-form-603460649 select, #af-form-603460649 label, #af-form-603460649 optgroup, #af-form-603460649 option {
+  float: none;
+  position: static;
+  margin: 0;
+}
+
+#af-form-603460649 div {
+  margin: 0;
+}
+
+#af-form-603460649 fieldset {
+  border: 0;
+}
+
+#af-form-603460649 form, #af-form-603460649 textarea, .af-form-wrapper, .af-form-close-button, #af-form-603460649 img {
+  float: none;
+  color: inherit;
+  position: static;
+  background-color: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#af-form-603460649 input, #af-form-603460649 button, #af-form-603460649 textarea, #af-form-603460649 select {
+  font-size: 100%;
+}
+
+#af-form-603460649 p {
+  color: inherit;
+}
+
+#af-form-603460649 select, #af-form-603460649 label, #af-form-603460649 optgroup, #af-form-603460649 option {
+  padding: 0;
+}
+
+#af-form-603460649 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#af-form-603460649 ul, #af-form-603460649 ol {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+#af-form-603460649, #af-form-603460649 .quirksMode {
+  width: 100%;
+  max-width: 418px;
+}
+
+#af-form-603460649.af-quirksMode {
+  overflow-x: hidden;
+}
+
+#af-form-603460649 {
+  background-color: transparent;
+  border-color: #CFCFCF;
+  border-width: 1px;
+  border-style: none;
+}
+
+#af-form-603460649 {
+  display: block;
+}
+
+#af-form-603460649 {
+  overflow: hidden;
+}
+
+.af-body .af-textWrap {
+  text-align: left;
+}
+
+.af-body input.image {
+  border: none!important;
+}
+
+.af-body input.submit, .af-body input.image, .af-form .af-element input.button {
+  float: none!important;
+}
+
+.af-body input.text {
+  width: 100%;
+  float: none;
+  padding: 2px!important;
+}
+
+.af-body.af-standards input.submit {
+  padding: 4px 12px;
+}
+
+.af-clear {
+  clear: both;
+}
+
+.af-element label {
+  text-align: left;
+  display: block;
+  float: left;
+}
+
+.af-element {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.af-form-wrapper {
+  text-indent: 0;
+}
+
+.af-form {
+  text-align: left;
+  margin: auto;
+}
+
+.af-header {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.af-quirksMode .af-element {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.lbl-right .af-element label {
+  text-align: right;
+}
