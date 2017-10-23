@@ -84,6 +84,9 @@ li {
   .aweber {
     margin-top: -300px;
   }
+  .aweContainer{
+    width: 120%;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -93,6 +96,7 @@ li {
   .chamaDer, .chamaIzq {
     max-height: 600px;
   }
+
 }
 
 @media (max-width: 1250px) {
@@ -121,6 +125,9 @@ li {
   }
   .logo {
     width: 420px;
+  }
+  .aweContainer{
+    width: 100%;
   }
 }
 
