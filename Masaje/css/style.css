@@ -10,8 +10,15 @@ body{
 
 }
 
+
 .aweb{
-  padding-top: 120px;
+  padding-top: 70px;
+}
+
+@media (min-width: 1500px){
+  .container{
+    width: 1250px;
+  }
 }
 
 @media (max-width: 1550px) {
