@@ -6,13 +6,18 @@ body{
 
 .tipo{
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
 
 }
 
 
 .aweb{
-  padding-top: 70px;
+  padding-top: 50px;
+
+}
+
+.aweContainer{
+  margin-left: -30px;
 }
 
 @media (min-width: 1500px){
@@ -21,109 +26,87 @@ body{
   }
 }
 
-@media (max-width: 1550px) {
-.chamaDer, .chamaIzq{
-  max-height: 650px;
-}
 
-.container{
-  padding: 0 90px 0 15px;
-}
 
-.lipo{
-  width: 350px;
-}
-
-.aweber{
-  margin-top: -300px;
-}
+@media (max-width: 1700px) {
+  .aweContainer{
+    margin-left: 0;
+  }
+  .tipo{
+    width: 60%;
+  }
 
 }
+
 
 @media (max-width: 1400px) {
 h1{
   font-size: 50px;
 }
 
+.tipo{
+  bottom: 50px;
+}
 }
 
 
-@media (max-width: 1250px) {
-
-.logo{
-  width: 50%;
-}
-
-  h1{
-    font-size: 48px;
-  }
-  h3{
-    font-size: 30px;
-  }
-
-}
-
-@media (max-width: 1250px)
-{
-.logo {
-    width: 140%;
-}
+@media (max-width: 1250px){
 .aweb{padding-top: 0;}
 }
 
 @media (max-width: 1200px) {
-  .frase{width: 160%;}
-  .logo{width: 160%;}
+
   .aweb{padding-top: 0;}
+
 }
 
-@media (max-width: 1199px){
-  .frase{width: 140%;}
-  .logo{width: 140%;}
-}
 
 @media (max-width: 992px) {
 
 .tipo{display: none;}
-.frase{width: 80%;}
-.logo{width: 80%;}
+.frase{margin-bottom: 70px;}
+.logo{margin-bottom: 70px;}
 
+.container{
+  width: 90%;
+}
 }
 
-@media (max-width: 750px) {
-  .frase{width: 110%; padding-top: 35px;}
-  .logo{width: 110%;}
-  .aweb{padding-top: 0;}
-  body > div > div:nth-child(4) > div{padding-left: 70px;}}
+
 
 @media (max-width: 600px) {
-  .frase{width: 120%; padding-top: 35px;}
-  .logo{width: 120%;}
-  .aweb{padding-top: 0;}
-  body > div > div:nth-child(4) > div{padding-left: 70px;}
+  .container{
+    width: 95%;
+  }
+
 }
 
 @media (max-width: 500px) {
-  .frase{width: 120%; padding-top: 35px;}
-  .logo{width: 120%;}
-  .aweb{padding-top: 0;}
-  body > div > div:nth-child(4) > div{padding-left: 70px;}
+  .container{
+    width: 100%;
   }
-
-@media (max-width: 330px) {
+  .frase{margin-bottom: 30px;}
 
   }
 
-@media (max-width: 300px) {
+@media (max-height: 820px) {
+.tipo{
+  top: 35%;
+}
+}
 
-  }
 
 
-h6{color: #009F98; padding-top: 25px; padding-left: 15px;}
+
+h6{
+  color: #009F98;
+  padding-top: 25px;
+  padding-left: 15px;
+
+}
 
 .aweContainer {
   background-color: #F8ECEC;
-   border-radius: 25px;
 
 }
 
